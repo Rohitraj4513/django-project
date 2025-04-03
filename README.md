@@ -11,14 +11,19 @@ Follow these steps to set up and run the project locally.
 
 1. Clone the Repository
 git clone https://github.com/your-username/your-repo.git
+
 cd your-repo
 
-2. Create and Activate a Virtual Environment
+3. Create and Activate a Virtual Environment
+   
 For Windows (cmd or PowerShell):
+
 python -m venv venv
+
 venv\Scripts\activate
 
-3. Apply Database Migrations
+
+5. Apply Database Migrations
 
   python manage.py migrate
 
@@ -40,10 +45,15 @@ The API should now be running at http://127.0.0.1:8000/
 Usage & Testing the API
 
 Using Postman
+
 Open Postman
+
 Set the method to POST, GET, or DELETE
+
 Enter the API URL (e.g., http://127.0.0.1:8000/api/add-app/)
+
 Go to the Body tab, select raw, and choose JSON format
+
 Enter request data:
 
 {
