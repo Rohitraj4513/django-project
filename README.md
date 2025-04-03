@@ -5,23 +5,30 @@ This is a simple Django REST API that allows users to manage applications. The A
 
 Prerequisites
 Ensure you have the following installed on your system before proceeding:
+
 Python 3.8+
+
 Django 4+
+
 Django REST Framework
+
 PostgreSQL or SQLite (default)
 
+
 Installation and Setup
+
 1. Clone the Repository
+
 Open a terminal or command prompt and run:
 git clone https://github.com/yourusername/your-repo.git
 cd your-repo
 
-2. Create and Activate a Virtual Environment
+3. Create and Activate a Virtual Environment
 For Windows (cmd or PowerShell):
 python -m venv venv
 venv\Scripts\activate
 
-3. Apply Database Migrations
+4. Apply Database Migrations
 python manage.py migrate
 
 5. Run the Development Server
