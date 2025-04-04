@@ -71,21 +71,26 @@ Click Send to test the API
 
 Task 2: Database Management 
 
-To test your Task 2 API (which interacts with the SQLite or PostgreSQL database and performs CRUD operations), follow these steps to ensure the endpoints are working correctly:
+Task 2 API (which interacts with the SQLite or PostgreSQL database and performs CRUD operations), follow these steps to ensure the endpoints are working correctly:
 
 1. Test the GET API to fetch all apps
+   
 This API endpoint should return a list of all apps stored in the database.
 
 Using Postman:
+
 HTTP Method: GET
 
 URL: http://127.0.0.1:8000/api/get-apps/
 
 Expected Response:
 
+
 [
     {
+    
         "id": 1,
+        
         "name": "Test App",
         "version": "1.0.0",
         "description": "This is a sample test app."
@@ -104,6 +109,7 @@ Expected Response:
     }
 ]
 
+
 2. Test the POST API to create a new app
 
 This API endpoint should allow you to add a new app to the database.
@@ -116,18 +122,19 @@ URL: http://127.0.0.1:8000/api/add-app/
 Body (JSON format):
 
 
-]
 {
+
     "name": "Sample App",
     "version": "1.0.0",
     "description": "A sample app description."
 }
+
 Expected Response:
-json
-Copy
-Edit
+
 {
+
     "id": 4,
+    
     "name": "Sample App",
     "version": "1.0.0",
     "description": "A sample app description."
@@ -135,6 +142,7 @@ Edit
 This response should indicate that the app was successfully added to the database.
 
 3. Test the GET API again
+   
 After adding a new app, you should test the GET API again to ensure the newly added app appears in the list.
 
 HTTP Method: GET
@@ -146,6 +154,7 @@ Expected Response (including the newly added app):
 
 [
     {
+    
         "id": 1,
         "name": "Test App",
         "version": "1.0.0",
