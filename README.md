@@ -56,6 +56,8 @@ Using Postman
 
 Enter request data:
 
+
+
 {
 
     "name": "Sample App",
@@ -65,6 +67,7 @@ Enter request data:
     "description": "This is a sample application."
     
 }
+
 
 Click Send to test the API
 
@@ -139,6 +142,7 @@ Expected Response:
     "version": "1.0.0",
     "description": "A sample app description."
 }
+
 This response should indicate that the app was successfully added to the database.
 
 3. Test the GET API again
