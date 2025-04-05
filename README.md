@@ -72,7 +72,7 @@ Enter request data:
 Click Send to test the API
 
 
-Task 2: Database Management 
+ 2: Database Management 
 
 Task 2 API (which interacts with the SQLite or PostgreSQL database and performs CRUD operations), follow these steps to ensure the endpoints are working correctly:
 
